@@ -1,0 +1,170 @@
+/*Main Menu*/
+div.menu ul.main-menu li.top-level{
+  line-height: auto;
+  padding: auto;
+}
+.menu {
+  height: 33px;
+  padding: 0;
+  background: #7a93b2;
+  width: 960px;
+  font-size: 14px;
+  margin: 0px;
+  font-weight: bold;
+  font-family: Arial, sans serif;
+  color: #fff;
+}
+
+.main-menu {
+  list-style-type:none;
+  margin: 0;
+  padding:0;
+}
+
+.menu li.top-level {
+  background: #48627d;
+  display: block;
+  float: left;
+  line-height: 22px;
+  margin: 0px 4px 0px 0px;
+  color: #fff;
+  padding: 0px;
+  position: relative;  
+  z-index: 1000;
+}
+a.top-link{
+  color:#FFFFFF;
+  text-decoration:none;
+  /*border-right: 4px solid #7a93b2;*/
+}
+.menu li.top-level a.top-link {
+  height: 20px;
+  vertical-align: middle;
+  line-height: 22px;
+  margin: 0px;
+  padding:6px 10px 7px 10px;
+}
+.menu li.top-level > a.active{
+  background: #5e7791  ; /*#AFBED1;*/
+  height: 20px;
+  padding:6px 10px 7px 10px;
+  margin: 0;
+}
+.menu li:hover li,
+.menu a:hover li,
+.menu li:hover ul,
+.menu a:hover ul,
+.menu li.top-level a:hover ul {
+  visibility: visible;
+}
+.menu ul *:hover>a.top-link {
+  background: none repeat scroll 0 0 #5e7791; /*#AFBED1;*/
+  height: 20px;
+  margin: 0px;
+  padding:6px 10px 7px 10px;
+}
+
+.menu li.top-level a:hover {
+  height: 20px;
+  vertical-align: middle;
+  margin-top: 0px;
+  padding:6px 10px 7px 10px;
+  line-height: 22px;
+  visbility: visible;
+}
+
+.menu table {
+  left:0;
+  margin:0;
+  padding:0;
+  position:absolute;
+  top:0;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  border:0 none;
+  width: auto;
+}
+.menu table td{
+  margin:0;
+  padding:0;
+  border: 0 none;
+}
+.menu .top-level a,
+.menu .top-level a:visited {
+  color:#fff;
+  display:block;
+  font-size:14px;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.menu .top-level:first-child a span.menu-text,.menu .top-level:first-child a:visited span.menu-text {
+  border-left:0 none transparent;
+}
+
+.menu .top-level:first-child a span.menu-text,.menu .top-level:first-child a:visited span.menu-text {
+  border-left:0 none transparent;
+}
+
+.menu .second-level {
+  background: none;
+  height: auto;
+  left: 0px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 30px 0px 0px 0px;  
+  position: absolute;
+  top: 4px;
+  width: 210px;
+  visibility: hidden;
+  z-index:-1;
+  color: #ffffff;
+}
+.menu .second-level:hover {
+  top: 4px;  
+}
+.menu .second-level:visited {
+  top: 4px;  
+}
+.menu .second-level li {
+  display: block;
+  float: left;
+  line-height: 22px;
+  text-align: left;
+  height: auto;
+  padding: 4px 0px 4px 0px;
+  background: #48627d;
+  color: #ffffff;
+  margin-left: 0px;
+  border-bottom: white 1px solid;
+}
+.menu .second-level li:hover{
+  background: #5e7791; /*#7a93b2;*/
+}
+.menu .second-level li a, .menu .second-level li a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  background: none;
+  height: auto;  
+  padding: 4px 10px 4px 0px;
+}
+.menu .second-level li a:hover {
+  background: none;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 4px 10px 4px 0px;
+  height: auto;
+  background: #5e7791;
+}
+.level2-subnav-link{
+  margin-bottom: 0px;
+  margin-left: 10px;
+  width: 200px;
+  background-color: none;
+}
+
+.menu li.bottom-menu {
+  display:none;
+}
+
+
